@@ -5,7 +5,6 @@ im = Image.open("Images\PNG\Swineline Header_Light.jpg")
 st.set_page_config(
     page_title="SwineLine",
     page_icon= im
-
 )
 
 # Title
