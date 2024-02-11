@@ -10,9 +10,7 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
-st.beta_set_page_config(
-    page_title="SwineLine"
-)
+
 # header
 st.header("This is the Heading")
 
