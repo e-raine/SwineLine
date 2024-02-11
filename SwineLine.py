@@ -11,7 +11,7 @@ hide_st_style = """
         footer {visibility:hidden;}
         </style>
         """
-st.markdown(hide_st_style, unsafe_allow_html=True)
+
 # Title
 st.title("Swineline")
 
@@ -29,3 +29,5 @@ st.success("Executed successfully")
 st.info("This is an information")
 st.warning("This is a warning")
 st.error("This is an error")
+
+st.markdown(hide_st_style, unsafe_allow_html=True)
