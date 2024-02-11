@@ -1,5 +1,6 @@
 from PIL import Image
 import streamlit as st
+import favicon
 
 st.set_page_config(
     page_title="SwineLine",
