@@ -1,8 +1,12 @@
+from PIL import Image
 import streamlit as st
 
+im = Image.open("Images\PNG\Swineline Header_Light.jpg")
 st.set_page_config(
-    page_title="SwineLine"
+    page_title="SwineLine",
+    page_icon= im
 )
+
 # Title
 st.title("Swineline")
 
