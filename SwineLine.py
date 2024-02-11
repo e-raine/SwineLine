@@ -17,7 +17,3 @@ st.success("Executed successfully")
 st.info("This is an information")
 st.warning("This is a warning")
 st.error("This is an error")
-
-# write
-st.write("I'm writing this sample code")
-st.write(range(20))
