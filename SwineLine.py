@@ -1,7 +1,8 @@
 from PIL import Image
 import streamlit as st
 import favicon
-
+ 
+im = Image.open("favicon.ico")
 st.set_page_config(
     page_title="SwineLine",
 )
