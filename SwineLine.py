@@ -5,7 +5,6 @@ import favicon
 
 st.set_page_config(
     page_title="SwineLine",
-    page_icon= "Smile"
 )
 
 
