@@ -26,9 +26,10 @@ ul {
     text-decoration: none;
   }
 
-  ul:hover {
+  li:hover {
     background: linear-gradient(180deg,#ee515f, #9c0c58);
     border-radius: 1rem;
+    height: 78px;
   }
 
   p{
