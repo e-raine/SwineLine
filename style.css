@@ -27,7 +27,7 @@ ul {
   }
 
   li:hover {
-    background: linear-gradient(180deg,#ee515f, #9c0c58);
+    background:#9c0c58;
     border-radius: 1rem;
     height: 70px;
   }
