@@ -3,31 +3,28 @@
     background-color: transparent;
 }
 
-/*
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: #ee515f;
+    background: linear-gradient(90deg,#ee515f, #9c0c58);
   }
   
   li {
     float: left;
   }
   
-  li h1 {
+  li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
-  li h1:hover {
-    background-color: linear-gradient(180deg,#ee515f, #9c0c58);
+  li a:hover {
+    background: linear-gradient(180deg,#ee515f, #9c0c58);
 }
-*/
 
 .st-emotion-cache-1wrcr25 {
     display: flex;
