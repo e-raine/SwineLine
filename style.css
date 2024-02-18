@@ -27,8 +27,9 @@ ul {
 
   li a {
     display: block;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
+    margin-left: 10px;
   }
   
   li a:hover {
