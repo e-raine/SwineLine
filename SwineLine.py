@@ -15,7 +15,7 @@ st.markdown("""
             <li>
             <a href="#">
                 <img src="https://pouch.jumpshare.com/preview/ChiIa6vGXXlLBjZXqbOW1g2plJKWohUVtOI1RC2UXR6aIjx8njIQ24kZToBnWgMAyFb93RkyHQzbjCH_oylQni--7bgpO1xY3C4xkXUfm4s" style="width: 3.5rem; height: 3.5rem;">
-                <img src="https://pouch.jumpshare.com/preview/UI--6dHDTuYM1qQqFxI1F1dwpmwZrLF8kgGjIPH7QklLllPYduKB_fjGKMEuM-5-Fyh0q_s75f28xrrTzp5nT1IwJ-AR6DFQHBOxFbY-Kg4" style="width: 8rem; height: 4.5rem;">
+                <img src="https://pouch.jumpshare.com/preview/UI--6dHDTuYM1qQqFxI1F1dwpmwZrLF8kgGjIPH7QklLllPYduKB_fjGKMEuM-5-Fyh0q_s75f28xrrTzp5nT1IwJ-AR6DFQHBOxFbY-Kg4" style="width: 5.33rem; height: 3.5rem;">
             </a>
             </li>
         </ul>
