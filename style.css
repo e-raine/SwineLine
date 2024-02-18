@@ -24,7 +24,12 @@ ul {
   
   li a:hover {
     background: linear-gradient(180deg,#ee515f, #9c0c58);
-}
+  }
+
+  li a img {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
 
 .st-emotion-cache-1wrcr25 {
     display: flex;
