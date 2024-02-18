@@ -61,3 +61,27 @@ ul {
     overflow: hidden;
 }
 /* End of background color */
+
+
+
+.st-emotion-cache-6q9sum {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    margin: 0px 0.125rem;
+    color: inherit;
+    width: auto;
+    user-select: none;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    line-height: 1;
+    min-width: 2rem;
+    min-height: 2rem;
+    padding: 0px;
+    z-index: 1;
+}
