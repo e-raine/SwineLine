@@ -27,7 +27,7 @@ ul {
   }
 
   li:hover {
-    background:#9c0c58;
+    background:rgba(156, 12, 88, 0.2);
     border-radius: 1rem;
     height: 70px;
   }
