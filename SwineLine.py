@@ -10,15 +10,20 @@ st.set_page_config(
 
 st.markdown("""
 <header tabindex="-1" data-testid="stHeader" class="st-emotion-cache-1avcm0n ezrtsby2">
-  <nav>
-  <ul>
-  <li>
-    <a href="#">
-        <img src="https://pouch.jumpshare.com/preview/ChiIa6vGXXlLBjZXqbOW1g2plJKWohUVtOI1RC2UXR6aIjx8njIQ24kZToBnWgMAyFb93RkyHQzbjCH_oylQni--7bgpO1xY3C4xkXUfm4s">
-    </a>
-  </li>
-  </ul>
-  </nav>
+    <nav>
+        <ul>
+            <li>
+            <a href="#">
+                <img src="https://pouch.jumpshare.com/preview/ChiIa6vGXXlLBjZXqbOW1g2plJKWohUVtOI1RC2UXR6aIjx8njIQ24kZToBnWgMAyFb93RkyHQzbjCH_oylQni--7bgpO1xY3C4xkXUfm4s">
+            </a>
+            </li>
+            <li>
+            <a href="#">
+                <img src="https://pouch.jumpshare.com/preview/UI--6dHDTuYM1qQqFxI1F1dwpmwZrLF8kgGjIPH7QklLllPYduKB_fjGKMEuM-5-Fyh0q_s75f28xrrTzp5nT1IwJ-AR6DFQHBOxFbY-Kg4">
+            </a>
+            </li>
+        </ul>
+    </nav>
 </header>
 """, unsafe_allow_html=True)
 
