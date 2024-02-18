@@ -16,9 +16,8 @@ st.markdown("""
                 <div class="dropdown" style="float:left;">
                     <button class="dropbtn">Left</button>
                         <div class="dropdown-content" style="left:0;">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                            <a href="https://swineline.streamlit.app/~/+/">Home Page</a>
+                            <a href="https://swineline.streamlit.app/~/+/marketplace">Market Place</a>
                         </div>
                 </div>
             </li>
