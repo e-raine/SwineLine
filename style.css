@@ -27,8 +27,8 @@ ul {
   }
 
   li a img {
-    width: 5rem;
-    height: 5rem;
+    width: fit-content;
+    height: fit-content;
   }
 
 .st-emotion-cache-1wrcr25 {
