@@ -15,7 +15,7 @@ ul {
     float: left;
   }
   
-  li a {
+  li h1 {
     display: block;
     color: white;
     text-align: center;
@@ -23,8 +23,8 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover {
-    background: linear-gradient(180deg,#ee515f, #9c0c58);
+  li h1:hover {
+    background-color: linear-gradient(180deg,#ee515f, #9c0c58);
 }
 
 .st-emotion-cache-1wrcr25 {

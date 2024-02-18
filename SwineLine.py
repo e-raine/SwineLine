@@ -13,9 +13,9 @@ st.markdown("""
   <nav>
   <ul>
   <li>
-    <a href="#">
+    <h1>
         SwineLine
-    </a>
+    </h1>
   </li>
   </ul>
   </nav>
