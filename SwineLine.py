@@ -22,7 +22,7 @@ st.markdown("""
     </nav>
 </header>
             
-<footer>
+<div class="footer">
     <ul>
         <li>
             <a href="https://swineline.streamlit.app/~/+/">
@@ -35,7 +35,7 @@ st.markdown("""
             </a>
         </li>
         </ul>
-</footer>
+</div>
 """, unsafe_allow_html=True)
 
 # Connect to css

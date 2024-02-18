@@ -42,3 +42,20 @@ ul {
     overflow: hidden;
 }
 /* End of background color */
+
+/* Footer */
+.footer {
+  display: block;
+}
+
+.footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #9c0c58;
+
+}
+
+
+/* End of Footer */
