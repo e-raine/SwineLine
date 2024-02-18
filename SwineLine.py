@@ -9,15 +9,31 @@ st.set_page_config(
 
 
 st.markdown("""
+    <script type="text/javascript">
+        function open_menu() {
+            let clicked = document.getElementById('drop-menu');
+            if (clicked.style.display == 'block') {
+                clicked.style.display = 'none';
+            }
+            else {
+                clicked.style.display = 'block';
+            }
+        }
+    </script>
+            
 <header tabindex="-1" data-testid="stHeader" class="st-emotion-cache-1avcm0n ezrtsby2">
+        <div id="dropdown">
+        <button onclick="open_menu()">Click Me!</button>
+        <div class="open" id="drop-menu">
+            <ul>
+                <li><a href="https://swineline.streamlit.app/~/+/">Item-1</a></li>
+                <li><a href="https://swineline.streamlit.app/~/+/marketplace">Item-2</a></li>
+                <li><a href="">Item-3</a></li>
+                <li><a href="">Item-4</a></li>
+            </ul>
+        </div>
+        </div>
         <ul>
-            <li class="Lev-1">
-                <a href="">Level-1</a>
-                <ul>
-                    <li><a href="https://swineline.streamlit.app/~/+/">Link 1</a></li>
-                    <li><a href="https://swineline.streamlit.app/~/+/marketplace">Link 2</a></li>
-                </ul>
-            </li>
             <li>
                 <div class="logo">
                     <a href="#">
