@@ -15,6 +15,10 @@ ul {
     background: linear-gradient(90deg,#ee515f, #9c0c58);
     border-radius: 0 0 15px 15px;
   }
+
+  li {
+    float: left;
+  }
   
   li a {
     display: block;
