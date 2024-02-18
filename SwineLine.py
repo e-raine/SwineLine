@@ -9,6 +9,7 @@ st.set_page_config(
 
 
 st.markdown("""
+<header tabindex="-1" data-testid="stHeader" class="st-emotion-cache-1avcm0n ezrtsby2">
   <nav>
   <ul>
   <li>
@@ -18,6 +19,7 @@ st.markdown("""
   </li>
   </ul>
   </nav>
+</header>
 """, unsafe_allow_html=True)
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
