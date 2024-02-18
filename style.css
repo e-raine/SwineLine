@@ -3,6 +3,12 @@
     background-color: transparent;
 }
 
+.st-emotion-cache-aw8l5d {
+  color: rgb(250, 250, 250);
+  z-index: 999999999;
+  background-color: blueviolet;
+}
+
 nav {
   z-index: 0;
 }
