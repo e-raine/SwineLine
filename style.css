@@ -25,6 +25,13 @@ ul {
     background: linear-gradient(180deg,#ee515f, #9c0c58);
   }
 
+  p{
+    margin: 1rem;
+    padding: 1px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
 /* End of Header*/
 
 /* Background color*/
