@@ -18,9 +18,16 @@ st.markdown("""
                 <img src="https://pouch.jumpshare.com/preview/UI--6dHDTuYM1qQqFxI1F1dwpmwZrLF8kgGjIPH7QklLllPYduKB_fjGKMEuM-5-Fyh0q_s75f28xrrTzp5nT1IwJ-AR6DFQHBOxFbY-Kg4" style="width: 8rem; height: 4.5rem;">
             </a>
             </li>
+            <li>
+            <a href="https://swineline.streamlit.app/~/+/marketplace">
+                <p> Market Place </p>
+            </a>
+            </li>
         </ul>
     </nav>
 </header>
+
+
 """, unsafe_allow_html=True)
 
 # Connect to css
