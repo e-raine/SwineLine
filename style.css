@@ -11,21 +11,23 @@ ul {
     background: linear-gradient(90deg,#ee515f, #9c0c58);
   }
   
-  li {
+li{
     float: left;
-  }
-  
-  li a {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background: linear-gradient(180deg,#ee515f, #9c0c58);
-  }
-
+}  
 /* End of Header*/
+
+/* Logo */
+li .logo a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+  
+li .logo a:hover {
+  background: linear-gradient(180deg,#ee515f, #9c0c58);
+}
+
+/* End of Logo */
 
 /* Background color*/
 .st-emotion-cache-1wrcr25 {
@@ -44,7 +46,7 @@ ul {
 /* End of background color */
 
 /* Dropdown */
-.dropbtn {
+li .dropbtn {
   background-color: #4CAF50;
   color: white;
   padding: 16px;
@@ -53,12 +55,12 @@ ul {
   cursor: pointer;
 }
 
-.dropdown {
+li .dropdown {
   position: relative;
   display: inline-block;
 }
 
-.dropdown-content {
+li .dropdown-content {
   display: none;
   position: absolute;
   right: 0;
@@ -68,20 +70,20 @@ ul {
   z-index: 1;
 }
 
-.dropdown-content a {
+li .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+li .dropdown-content a:hover {background-color: #f1f1f1;}
 
-.dropdown:hover .dropdown-content {
+li .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.dropdown:hover .dropbtn {
+li .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
 
