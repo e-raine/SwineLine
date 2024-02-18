@@ -22,9 +22,10 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover {
+  li:hover {
     background: linear-gradient(180deg,#ee515f, #9c0c58);
     border-radius: 1rem;
+    text-decoration: none;
   }
 
   p{
