@@ -9,6 +9,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background: linear-gradient(90deg,#ee515f, #9c0c58);
+    border-radius: 0 0 15px 15px;
   }
   
   li {
@@ -23,6 +24,7 @@ ul {
   
   li a:hover {
     background: linear-gradient(180deg,#ee515f, #9c0c58);
+    border-radius: 1rem;
   }
 
   p{
