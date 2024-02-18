@@ -1,0 +1,37 @@
+/* Header */
+.st-emotion-cache-18ni7ap{
+    background-color: transparent;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #ee515f;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background: linear-gradient(180deg,#ee515f, #9c0c58);
+}
+
+.st-emotion-cache-1r4qj8v {
+    position: absolute;
+    background: linear-gradient(180deg,#ee515f, #9c0c58);
+    inset: 0px;
+    color: white;
+    color-scheme: light;
+    overflow: hidden;
+}
