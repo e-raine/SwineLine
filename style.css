@@ -3,6 +3,7 @@
     background-color: transparent;
 }
 
+/*
 ul {
     list-style-type: none;
     margin: 0;
@@ -26,6 +27,7 @@ ul {
   li h1:hover {
     background-color: linear-gradient(180deg,#ee515f, #9c0c58);
 }
+*/
 
 .st-emotion-cache-1wrcr25 {
     display: flex;
