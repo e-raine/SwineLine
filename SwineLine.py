@@ -14,7 +14,7 @@ st.markdown("""
   <ul>
   <li>
     <a href="#">
-        <img src="images\SVG\Swineline Header_Pink.svg">
+        <img src="images\PNG\Swineline Header_Pink.jpg">
     </a>
   </li>
   </ul>
