@@ -38,6 +38,8 @@ ul {
   li:hover {
     background:rgba(156, 12, 88, 0.2);
     border-radius: 1rem;
+    padding: 0;
+    margin: 0;
   }
 
   p{
