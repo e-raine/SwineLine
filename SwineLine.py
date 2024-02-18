@@ -14,7 +14,7 @@ st.markdown("""
   <ul>
   <li>
     <a href="#">
-        <img src="https://github.com/e-raine/SwineLine/blob/main/images/android-chrome-192x192.png">
+        <img src="https://github.com/e-raine/SwineLine/blob/main/Images/SVG/Swineline%20Header_Pink.svg">
     </a>
   </li>
   </ul>
