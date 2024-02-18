@@ -13,29 +13,25 @@ st.markdown("""
     <nav>
         <ul>
             <li>
-            <a href="#">
+                <div class="dropdown" style="float:left;">
+                    <button class="dropbtn">Left</button>
+                        <div class="dropdown-content" style="left:0;">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                </div>
+            </li>
+            <li>
+                <a href="#">
                 <img src="https://pouch.jumpshare.com/preview/ChiIa6vGXXlLBjZXqbOW1g2plJKWohUVtOI1RC2UXR6aIjx8njIQ24kZToBnWgMAyFb93RkyHQzbjCH_oylQni--7bgpO1xY3C4xkXUfm4s" style="width: 3.5rem; height: 3.5rem;">
                 <img src="https://pouch.jumpshare.com/preview/UI--6dHDTuYM1qQqFxI1F1dwpmwZrLF8kgGjIPH7QklLllPYduKB_fjGKMEuM-5-Fyh0q_s75f28xrrTzp5nT1IwJ-AR6DFQHBOxFbY-Kg4" style="width: 8rem; height: 4.5rem;">
-            </a>
+                </a>
             </li>
         </ul>
     </nav>
 </header>
             
-<div class="footer">
-    <ul>
-        <li>
-            <a href="https://swineline.streamlit.app/~/+/">
-                <h1> Home </h1>
-            </a>
-        </li>
-        <li>
-            <a href="https://swineline.streamlit.app/~/+/marketplace">
-                <h1> MarketPlace</h1>
-            </a>
-        </li>
-        </ul>
-</div>
 """, unsafe_allow_html=True)
 
 # Connect to css
