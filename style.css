@@ -10,7 +10,7 @@ nav {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1rem;
     overflow: hidden;
     background: linear-gradient(90deg,#ee515f, #9c0c58);
     border-radius: 0 0 15px 15px;
