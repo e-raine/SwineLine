@@ -28,6 +28,7 @@ ul {
     display: block;
     text-align: left;
     text-decoration: none;
+    padding: 0;
     margin-left: 15px;
   }
   
