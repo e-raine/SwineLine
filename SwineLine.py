@@ -14,7 +14,7 @@ st.markdown("""
   <ul>
   <li>
     <a href="#">
-        <img src="https://drive.google.com/file/d/1rhy0E-lIQoefG7KE5Ife6YO51MQw6vCr/view?usp=drive_link">
+        <img src="https://drive.google.com/uc?export=view&id=1rhy0E-lIQoefG7KE5Ife6YO51MQw6vCr">
     </a>
   </li>
   </ul>
