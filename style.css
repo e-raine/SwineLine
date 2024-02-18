@@ -46,46 +46,55 @@ li .logo a:hover {
 /* End of background color */
 
 /* Dropdown */
-li .dropbtn {
-  background-color: #4CAF50;
+a {
   color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+  background-color: #990;
+  text-decoration: none;
 }
 
-li .dropdown {
+nav {
+  background: #333;
+}
+
+nav>ul {
+  margin: 0 auto;
+  width: 80px;
+}
+
+nav ul li {
+  display: block;
+  float: left;
+  margin-left: -40px;
   position: relative;
-  display: inline-block;
 }
 
-li .dropdown-content {
+nav ul a {
+  display: block;
+  float: left;
+  width: 150px;
+  padding: 10px 20px;
+}
+
+nav ul a:hover {
+  background: #090;
+}
+
+nav ul li ul li {
+  float: none;
+}
+
+nav ul li ul {
   display: none;
   position: absolute;
-  right: 0;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  background: #333;
+  top: 42px;
 }
 
-li .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
+nav ul li:hover>ul {
   display: block;
 }
 
-li .dropdown-content a:hover {background-color: #f1f1f1;}
-
-li .dropdown:hover .dropdown-content {
+nav ul li a {
   display: block;
 }
-
-li .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
-
-
 /* End of Dropdown */

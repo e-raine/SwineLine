@@ -11,14 +11,12 @@ st.set_page_config(
 st.markdown("""
 <header tabindex="-1" data-testid="stHeader" class="st-emotion-cache-1avcm0n ezrtsby2">
         <ul>
-            <li>
-                <div class="dropdown" style="float:left;">
-                    <button class="dropbtn">Left</button>
-                        <div class="dropdown-content" style="left:0;">
-                            <a href="https://swineline.streamlit.app/~/+/">Home Page</a>
-                            <a href="https://swineline.streamlit.app/~/+/marketplace">Market Place</a>
-                        </div>
-                </div>
+            <li class="Lev-1">
+                <a href="">Level-1</a>
+                <ul>
+                    <li><a href="https://swineline.streamlit.app/~/+/">Link 1</a></li>
+                    <li><a href="https://swineline.streamlit.app/~/+/marketplace">Link 2</a></li>
+                </ul>
             </li>
             <li>
                 <div class="logo">
