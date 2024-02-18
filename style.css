@@ -11,23 +11,21 @@ ul {
     background: linear-gradient(90deg,#ee515f, #9c0c58);
   }
   
-li{
+  li {
     float: left;
-}  
-/* End of Header*/
-
-/* Logo */
-li .logo a{
-  display: block;
-  text-align: center;
-  text-decoration: none;
-}
+  }
   
-li .logo a:hover {
-  background: linear-gradient(180deg,#ee515f, #9c0c58);
-}
+  li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background: linear-gradient(180deg,#ee515f, #9c0c58);
+  }
 
-/* End of Logo */
+/* End of Header*/
 
 /* Background color*/
 .st-emotion-cache-1wrcr25 {
@@ -44,46 +42,3 @@ li .logo a:hover {
     overflow: hidden;
 }
 /* End of background color */
-
-/* Dropdown */
-button {
-  background: #009900;
-  width: 200px;
-  height: 60px;
-  color: white;
-  border: 1px solid #fff;
-  font-size: 20px;
-  border-radius: 5px;
-
-}
-
-ul li {
-  list-style: none;
-}
-
-ul li a {
-  display: block;
-  background: #c99;
-  width: 200px;
-  height: 50px;
-  text-decoration: none;
-  text-align: center;
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  color: white;
-  font-size: 25px;
-}
-
-ul li a {
-  text-decoration: none;
-}
-
-ul li a:hover {
-  background: #009900;
-}
-
-.open {
-  display: none;
-}
-/* End of Dropdown */
