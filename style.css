@@ -26,9 +26,14 @@ ul {
     background: linear-gradient(180deg,#ee515f, #9c0c58);
   }
 
-  li a img {
+  .logo1 {
     width: 3rem;
     height: 3rem;
+  }
+
+  .logo2 {
+    width: min-content;
+    height: min-content;
   }
 
 .st-emotion-cache-1wrcr25 {
