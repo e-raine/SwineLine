@@ -48,7 +48,7 @@ li .logo a:hover {
 /* Dropdown */
 a {
   color: white;
-  background-color: #990;
+  background-color: transparent;
   text-decoration: none;
 }
 
