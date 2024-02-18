@@ -27,11 +27,16 @@ ul {
     background: linear-gradient(180deg,#ee515f, #9c0c58);
 }
 
-.st-emotion-cache-1r4qj8v {
+.st-emotion-cache-1wrcr25 {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    place-content: flex-start;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    position: absolute;
+    inset: 0px;
     position: absolute;
     background: linear-gradient(180deg,#ee515f, #9c0c58);
-    inset: 0px;
-    color: white;
-    color-scheme: light;
     overflow: hidden;
 }
