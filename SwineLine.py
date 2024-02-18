@@ -21,6 +21,21 @@ st.markdown("""
         </ul>
     </nav>
 </header>
+            
+<footer>
+    <ul>
+        <li>
+            <a href="https://swineline.streamlit.app/~/+/">
+                <h1> Home </h1>
+            </a>
+        </li>
+        <li>
+            <a href="https://swineline.streamlit.app/~/+/marketplace">
+                <h1> MarketPlace</h1>
+            </a>
+        </li>
+        </ul>
+</footer>
 """, unsafe_allow_html=True)
 
 # Connect to css
