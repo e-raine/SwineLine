@@ -14,7 +14,7 @@ st.markdown("""
         <ul>
             <li>
             <a href="#">
-                <img src="https://pouch.jumpshare.com/preview/ChiIa6vGXXlLBjZXqbOW1g2plJKWohUVtOI1RC2UXR6aIjx8njIQ24kZToBnWgMAT19MwCKi0ie_LxRS6IaoYXXez6lO-EVsMxUrkYtGo44" style="width: 64px; height: 64px;">
+                <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://jumpshare.com/embed/t5siRcMSeWWfGaFaraat" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
                 <img src="https://pouch.jumpshare.com/preview/UI--6dHDTuYM1qQqFxI1F1dwpmwZrLF8kgGjIPH7QklLllPYduKB_fjGKMEuM-5-h-GKjrMwluNXyctjKgKw-APlM0ji0if2t-U7RdwS02E" style="width: 113.78px; height: 64px;">
             </a>
             </li>
