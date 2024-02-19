@@ -3,7 +3,7 @@ from PIL import Image
 
 # Changing the web app logo and title
 st.set_page_config(
-    page_title="SwineLine",
+    page_title="SwineLine - Home Page",
     page_icon= Image.open("favicon.ico")
 )
 

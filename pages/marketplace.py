@@ -3,7 +3,7 @@ from PIL import Image
 
 # Changing the web app logo and title
 st.set_page_config(
-    page_title="SwineLine",
+    page_title="SwineLine - MarketPlace",
     page_icon= Image.open("favicon.ico")
 )
 
@@ -14,8 +14,8 @@ st.markdown("""
         <ul>
             <li>
             <a href="#">
-                <img src="https://pouch.jumpshare.com/preview/ChiIa6vGXXlLBjZXqbOW1g2plJKWohUVtOI1RC2UXR6aIjx8njIQ24kZToBnWgMAT19MwCKi0ie_LxRS6IaoYXXez6lO-EVsMxUrkYtGo44" style="width: 3.5rem; height: 3.5rem;">
-                <img src="https://pouch.jumpshare.com/preview/UI--6dHDTuYM1qQqFxI1F1dwpmwZrLF8kgGjIPH7QklLllPYduKB_fjGKMEuM-5-h-GKjrMwluNXyctjKgKw-APlM0ji0if2t-U7RdwS02E" style="width: 5.33rem; height: 3.5rem;">
+                <img src="https://pouch.jumpshare.com/preview/ChiIa6vGXXlLBjZXqbOW1g2plJKWohUVtOI1RC2UXR6aIjx8njIQ24kZToBnWgMAzI-lseNKzRlh85Un3yA1RGjiOb8yjQIX4ftrJJm5_hQ" style="width: 64px; height: 64px;">
+                <img src="https://pouch.jumpshare.com/preview/UI--6dHDTuYM1qQqFxI1F1dwpmwZrLF8kgGjIPH7QklLllPYduKB_fjGKMEuM-5-mY0GutQna0MI_hcAhp2VNRDizF1SErIs_wEm7WmCdoo" style="width: 113.78px; height: 64px;">
             </a>
             </li>
         </ul>
@@ -29,4 +29,4 @@ st.markdown("""
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-st.title("MarketPlace")
+st.title("Market Place")
