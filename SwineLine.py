@@ -33,7 +33,7 @@ with open('style.css') as f:
 st.title("DashBoard")
 
 df = pd.read_excel(
-    io='Data.xlsx',
+    io='https://github.com/e-raine/SwineLine/blob/main/Data.xlsx',
     engine='openpyxl',
     sheet_name='Sheet2',
     usecols='B:D',
