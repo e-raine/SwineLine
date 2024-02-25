@@ -33,9 +33,7 @@ with open('style.css') as f:
 st.title("DashBoard")
 
 df = pd.read_excel('C:\Users\User\Desktop\School Files\GRADE 12\Capstone\Code\Data.xlsx',
-    sheet_name='Sheet2',
-    usecols='B:D',
-    nrows='1000',
+    sheet_name='Sheet2'
 )
 
 st.dataframe(df)
