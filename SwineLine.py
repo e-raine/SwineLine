@@ -36,10 +36,7 @@ with open('style.css') as f:
 st.title("DashBoard")
 
 # Load Sheet
-conn = st.connection("gsheets", type=GSheetsConnection)
+conn = st.experimental_connection("gsheets", type=GSheetsConnection)
+df = conn.read(worksheet="Example 1")
 
-df = conn.read()
-
-# Print results.
-for row in df.itertuples():
-    st.write(f"{row.name} has a :{row.pet}:")
+st.dataframe(df)
