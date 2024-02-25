@@ -35,5 +35,8 @@ st.title("DashBoard")
 
 df = pd.read_excel(
     io='Data.xlsx',
-
+    engine='openpyxl',
+    sheet_name="Sheet2",
 )
+
+print(df)
