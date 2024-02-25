@@ -1,6 +1,7 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+from streamlit_gsheets import GSheetsConnection
 from PIL import Image
 
 # Changing the web app logo and title
@@ -31,13 +32,7 @@ st.markdown("""
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
+# Title
 st.title("DashBoard")
 
-df = pd.read_excel(
-    io="Data.xlsx",
-    engine="openpyxl",
-    sheet_name="Sheet2",
-    usecols="B:D",
-)
-
-st.dataframe(df)
+# Loa
