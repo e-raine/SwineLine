@@ -14,8 +14,8 @@ st.markdown("""
         <ul>
             <li>
             <a href="#">
-                <img src="https://pouch.jumpshare.com/preview/ChiIa6vGXXlLBjZXqbOW1g2plJKWohUVtOI1RC2UXR6aIjx8njIQ24kZToBnWgMAzI-lseNKzRlh85Un3yA1RGjiOb8yjQIX4ftrJJm5_hQ" style="width: 64px; height: 64px;">
-                <img src="https://pouch.jumpshare.com/preview/UI--6dHDTuYM1qQqFxI1F1dwpmwZrLF8kgGjIPH7QklLllPYduKB_fjGKMEuM-5-mY0GutQna0MI_hcAhp2VNRDizF1SErIs_wEm7WmCdoo" style="width: 113.78px; height: 64px;">
+                <img src="https://res.cloudinary.com/dxyyqx3l6/image/upload/v1708828402/Logo.svg" style="width: 64px; height: 64px;">
+                <img src="https://res.cloudinary.com/dxyyqx3l6/image/upload/v1708828270/Banner.svg" style="width: 113.78px; height: 64px;">
             </a>
             </li>
         </ul>
@@ -29,4 +29,4 @@ st.markdown("""
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-st.title("Market Place")
+st.title("Database")
