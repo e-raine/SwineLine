@@ -41,4 +41,4 @@ df = pd.read_excel(
     nrows='1000',
 )
 
-print(df)
+st.dataframe(df)
