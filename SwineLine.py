@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
-from streamlit import GSheetsConnection
+from streamlit_gsheets import GSheetsConnection
+
 from PIL import Image
 
 # Changing the web app logo and title
