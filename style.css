@@ -8,6 +8,7 @@
   color: rgb(250, 250, 250);
   z-index: 999999999;
 }
+
 .st-emotion-cache-6q9sum{
   margin-top: 13px;
 }
@@ -82,5 +83,11 @@ ul {
 }
 /* End of background color */
 
+/* Body */
+
+.st-emotion-cache-10trblm {
+  color:#C5315B;
+}
 
 
+/* End of Body */
