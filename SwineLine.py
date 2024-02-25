@@ -2,20 +2,6 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
-
-st.title("DashBoard")
-
-df = pd.read_excel(
-    io='Data.xlsx',
-    engine='openpyxl',
-    sheet_name="Sheet2",
-    usecols='B:D',
-    nrows='1000',
-)
-
-st.dataframe(df)
-
-
 # Changing the web app logo and title
 st.set_page_config(
     page_title="SwineLine - Home Page",
@@ -44,3 +30,14 @@ st.markdown("""
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
+st.title("DashBoard")
+
+df = pd.read_excel(
+    io='Data.xlsx',
+    engine='openpyxl',
+    sheet_name='Sheet2',
+    usecols='B:D',
+    nrows='1000',
+)
+
+st.dataframe(df)
