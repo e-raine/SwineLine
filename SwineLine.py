@@ -15,7 +15,7 @@ st.markdown("""
             <li>
             <a href="#">
                 <img src="https://i.postimg.cc/WzyhBcGP/Blue-and-White-Circle-Surfing-Club-Logo-5-removebg-preview.png" style="width: 64px; height: 64px;">
-                <img src="https://i.postimg.cc/44Pv8Yjz/Untitled-design.png" style="width: 113.78px; height: 64px;">
+                <img src="https://res.cloudinary.com/dxyyqx3l6/image/upload/v1708828270/Banner.svg" style="width: 113.78px; height: 64px;">
             </a>
             </li>
         </ul>
